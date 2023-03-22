@@ -1,0 +1,137 @@
+@media (max-width: 767px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 735px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__text {
+            padding-top: 238px;
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            text-align: center;
+        }
+
+        &__text_desc {
+            padding-bottom: 32px;
+            font-size: 14px;
+            line-height: 22px;
+            display: flex;
+            text-align: center;
+        }
+
+        &__link_button {
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+    }
+
+    .item__box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &__box_item {
+            width: 343px;
+        }
+    }
+
+    .bottom {
+        height: 1221px;
+        padding-bottom: 51px;
+    }
+
+
+    .seasons {
+        display: flex;
+        //align-items: center;
+
+        &__box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_about {
+                padding-bottom: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                display: flex;
+                align-items: center;
+            }
+
+            &_text {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+            }
+
+            &_desc {
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+            }
+
+            &_img {
+                width: 100%;
+                height: 100%;
+                padding-top: 64px;
+                padding-bottom: 85px;
+            }
+        }
+    }
+
+    .wordsgame {
+        &__box {
+            display: flex;
+            flex-direction: column-reverse;
+            //align-items: center;
+
+            &_about {
+                padding-bottom: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-left: 0px;
+                display: flex;
+                align-items: center;
+            }
+
+            &_text {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+            }
+
+            &_desc {
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+            }
+
+            &_img {
+                width: 100%;
+                height: 100%;
+                padding-top: 64px;
+                padding-bottom: 85px;
+            }
+        }
+    }
+}
